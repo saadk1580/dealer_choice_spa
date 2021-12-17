@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <script src="/dist/main.js" defer></script>
+
+    <style>
+      main {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      h1 {
+        text-align: center;
+      }
+      ul {
+        list-style: none;
+        padding: 0px;
+      }
+      li {
+        line-height: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Passenger Registry</h1>
+    </header>
+    <main>
+      <section>
+        <h2>ID #</h2>
+        <ul id="id-list"></ul>
+      </section>
+      <section>
+        <h2>Passengers</h2>
+        <ul id="passengers-list"></ul>
+      </section>
+      <section>
+        <h2>Departure City</h2>
+        <ul id="departure-list"></ul>
+      </section>
+      <section>
+        <h2>Arrival City</h2>
+        <ul id="arrival-list"></ul>
+      </section>
+      <section>
+        <h2>Delete</h2>
+        <ul id="delete-list"></ul>
+      </section>
+    </main>
+    <h1 id="add">Add More</h1>
+  </body>
+</html>
